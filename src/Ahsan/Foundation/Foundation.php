@@ -1,8 +1,8 @@
 <?php
 
-namespace Ahsan\Auth;
+namespace Ahsan\Foundation;
 
-class AuthManager
+class Foundation
 {
 	public $prop;
 

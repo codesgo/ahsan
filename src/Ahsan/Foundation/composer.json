@@ -1,0 +1,21 @@
+{
+	"name": "ahsan/foundation",
+	"description": "The Ahsan Foundation package.",
+	"license": "MIT",
+	"homepage": "https://laravel.com",
+	"authors": [
+		{
+			"name": "Ahsan Abrar",
+			"email": "iAhsanAbrar@gmail.com"
+		}
+	],
+	"require": {
+		"php": ">=5.6.4",
+	},
+	"autoload": {
+		"psr-4": {
+			"Ahsan\\Foundation\\": ""
+		}
+	},
+	"minimum-stability": "dev"
+}
