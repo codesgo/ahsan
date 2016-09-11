@@ -4,6 +4,13 @@ namespace Ahsan\Auth;
 
 class AuthManager
 {
+	public $prop;
+
+	function __construct()
+	{
+		$this->prop = 'Property Value Working.';
+	}
+
 	/**
 	 * Attempt to get the guard from the local cache.
 	 *
@@ -12,6 +19,6 @@ class AuthManager
 	 */
 	public function fetch()
 	{
-		return 'Working';
+		return $this->prop;
 	}
 }
