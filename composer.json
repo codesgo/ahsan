@@ -14,7 +14,8 @@
 		"php": ">=5.6.4"
 	},
 	"replace": {
-		"ahsan/auth": "self.version"
+		"ahsan/auth": "self.version",
+		"ahsan/foundation": "self.version"
 	},
 	"autoload": {
 		"psr-4": {
