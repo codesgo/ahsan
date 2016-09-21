@@ -8,7 +8,7 @@ class Foundation
 
 	function __construct()
 	{
-		$this->prop = 'Property Value Working.';
+		$this->prop = 'Property Value Working. but now updated.';
 	}
 
 	/**
